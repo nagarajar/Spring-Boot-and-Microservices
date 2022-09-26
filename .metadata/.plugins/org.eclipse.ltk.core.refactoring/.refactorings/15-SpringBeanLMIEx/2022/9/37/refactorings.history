@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;tsb1&apos; in &apos;com.app.test.Test.main(...)&apos; to &apos;ts1&apos;&#x0D;&#x0A;- Original project: &apos;15-SpringBeanLMIEx&apos;&#x0D;&#x0A;- Original element: &apos;com.app.test.Test.main(String[]).tsb1&apos;&#x0D;&#x0A;- Renamed element: &apos;tsb1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;tsb1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.test{Test.java[Test~main~\[QString;@tsb1!428!494!441!444!QTokenService;!0!false" name="ts1" references="true" stamp="1662741187483" version="1.0"/>
+</session>

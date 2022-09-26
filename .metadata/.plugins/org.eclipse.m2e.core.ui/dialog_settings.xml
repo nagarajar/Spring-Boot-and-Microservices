@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\19-SpringCoreCircularDependencyEx\src\main\java\com\app\model\Project.java"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringBeanScopeAnnoJavaEx\src\main\java\com\app\Token.java"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringBeanScopeXmlEx"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringCoreAutowiredCase3Ex\src\main\java\com\app\MyService.java"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringCoreXmlConfigWithAnnoLifeCycleEx"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringCorePredifinedLifeCycleInterface"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringCoreXmlLifeCycleMethodsEx\src\main\resources\beans.xml"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringCoreAutowiredBasicEx\src\main\java\com\app\controller\MyController.java"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringBeanTask01"/>
+			<item value="D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot and microservice workspace\SpringFirstApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.app"/>
+			<item value="my.app"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="21-SpringCoreScheduling"/>
+			<item value="20-SpringCircularDependencyJavaAnnoEx"/>
+			<item value="19-SpringCoreCircularDependencyEx"/>
+			<item value="SpringCoreSpEl"/>
+			<item value="17-SpingCoreAnnotationInterfaceTask01"/>
+			<item value="SpringCoreAutowiredInterfaceEx"/>
+			<item value="SpringBeanLMIEx"/>
+			<item value="SpringBeanScopeJavaConfigEx"/>
+			<item value="SpringBeanScopeAnnoJavaEx"/>
+			<item value="SpringBeanScopeXmlEx"/>
+			<item value="SpringCoreAutowiredCase3Ex"/>
+			<item value="SpringCoreJavaConfigEx"/>
+			<item value="SpringCoreLifeCycleUsingAnnotationEx"/>
+			<item value="SpringCoreXmlConfigWithAnnoLifeCycleEx"/>
+			<item value="SpringCorePredifinedLifeCycleInterface"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="1.0"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

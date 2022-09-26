@@ -1,0 +1,16 @@
+package com.app.model;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Process 
+{
+	private int code;
+
+	@Override
+	public String toString() {
+		return "Process [code=" + code + "]";
+	}
+	
+	
+}

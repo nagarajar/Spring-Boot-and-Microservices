@@ -1,0 +1,19 @@
+package com.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.app.service.IEmpService;
+
+@Component
+public class EmpController 
+{
+	@Autowired
+	private IEmpService service;
+	
+	void getInfo() 
+	{
+		service.checkLogic();
+		System.out.println("getInfo method from controller");
+	}
+}

@@ -1,0 +1,19 @@
+package com.app.model;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Process 
+{
+	//@Value("28")
+	@Value("#{ 2 + 3}")
+	private int code;
+
+	@Override
+	public String toString() {
+		return "Process [code=" + code + "]";
+	}
+	
+	
+}

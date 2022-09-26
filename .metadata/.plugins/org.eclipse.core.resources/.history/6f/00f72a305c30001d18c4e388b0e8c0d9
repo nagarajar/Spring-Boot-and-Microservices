@@ -1,0 +1,19 @@
+package com.app.model;
+
+import java.util.Random;
+
+public class Token 
+{
+	private int code;
+
+	public Token() {
+		super();
+		code = Math.abs(new Random().nextInt());
+	}
+
+	@Override
+	public String toString() {
+		return "Token [code=" + code + "]";
+	}
+		
+}

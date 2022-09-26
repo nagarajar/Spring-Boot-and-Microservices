@@ -1,0 +1,19 @@
+package com.app.service;
+
+import com.app.repository.IEmpDao;
+
+public class EmpServiceImpl implements IEmpService, IEmpDao {
+
+	@Override
+	public void save() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void checkLogic() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

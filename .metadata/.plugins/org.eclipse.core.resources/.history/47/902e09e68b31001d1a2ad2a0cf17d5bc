@@ -1,0 +1,16 @@
+package com.app.invoke;
+
+import org.springframework.stereotype.Component;
+
+import com.app.service.IProcess;
+
+@Component
+public class Format 
+{
+	private IProcess pob;
+	
+	public void printFormat() {
+		pob.getProcessCode();
+		System.out.println("From Format");
+	}
+}

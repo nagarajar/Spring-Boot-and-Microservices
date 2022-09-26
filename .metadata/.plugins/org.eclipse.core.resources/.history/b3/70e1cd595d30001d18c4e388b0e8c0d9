@@ -1,0 +1,19 @@
+package com.app.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.app.config.MyAppConfig;
+import com.app.model.Token;
+import com.app.service.TokenService;
+
+public class Test 
+{
+	public static void main(String[] args) 
+	{
+		ApplicationContext ac = new AnnotationConfigApplicationContext(MyAppConfig.class);
+		TokenService tsb1 = ac.getBean("tokenService", TokenService.class);
+		Token t1 = tsb1.getToken();
+		System.out.println(t1);
+	}
+}

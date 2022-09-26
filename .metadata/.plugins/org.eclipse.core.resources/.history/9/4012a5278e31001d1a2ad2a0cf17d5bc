@@ -1,0 +1,14 @@
+package com.app.service;
+
+import com.app.repository.IEmpDao;
+
+public class EmpServiceImpl implements IEmpService {
+
+
+	@Override
+	public void checkLogic() {
+		System.out.println("checkLogic method from EmpServiceImpl");
+
+	}
+
+}

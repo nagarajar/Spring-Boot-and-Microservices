@@ -1,0 +1,25 @@
+package com.app.model;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Process 
+{
+	//@Value("28")
+	//@Value("#{ 2 + 3}")
+	//@Value("#{ 'hello gm'.length() }")
+	//@Value("#{ new java.util.Random().nextInt()}")
+	//@Value("#{ T(java.lang.Math).abs(-9)}")
+	//@Value("#{ T(java.lang.Math).abs(new java.util.Random().nextInt())}")
+	//@Value("#{ 'hello'.length() > 0 ? 55 : 45 }")
+	@Value("#{  modelData.code.legth() }")
+	private int code;
+
+	@Override
+	public String toString() {
+		return "Process [code=" + code + "]";
+	}
+	
+	
+}

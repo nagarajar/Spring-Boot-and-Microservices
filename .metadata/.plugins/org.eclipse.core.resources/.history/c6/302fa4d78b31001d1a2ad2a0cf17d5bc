@@ -1,0 +1,12 @@
+package com.app.service;
+
+public class ProcessImpl implements IProcess 
+{
+
+	@Override
+	public void getProcessCode() {
+		System.out.println("P1");
+		
+	}
+	
+}
